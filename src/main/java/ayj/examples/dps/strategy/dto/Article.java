@@ -23,8 +23,7 @@ public class Article implements Payable {
 
 	@Override
 	public String toString() {
-		return String.format("%6s %3d €", nom,prix);
+		return String.format("%6s %3d €", nom, prix);
 	}
-	
-	
+
 }
